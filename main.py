@@ -87,9 +87,8 @@ def semHandler(update: Update, context: CallbackContext):
         for cur in current:
             tempD = tempD[cur]
         if type(tempD) == str:
-            query.delete_message()
-            context.bot.send_document(
-                chat_id=update.effective_chat.id, document=_CODE[tempD])
+            context.bot.send_message(
+                chat_id=update.effective_chat.id, text=tempD)
         else:
             buttons = []
             keys = list(tempD.keys())

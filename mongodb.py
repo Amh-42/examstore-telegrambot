@@ -1,107 +1,107 @@
 _Exams = {
     "fresh": {
         "sem1": {
-            "Applied Mathematics I": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "General Physics-I": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "General Chemistry": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Introduction to Computing": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Communicative English Skills": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Civic and Ethical Education": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Health &Physical Education I": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Logic and Critical Thinking": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+            "Applied Mathematics I": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "General Physics-I": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "General Chemistry": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Introduction to Computing": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Communicative English Skills": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Civic and Ethical Education": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Health &Physical Education I": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Logic and Critical Thinking": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
         },
         "sem2": {
-            "Applied Mathematics II": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "General Physics II": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Fundamentals of Programming": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Engineering Drawing": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Basic Writing Skills": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Health &Physical Education I": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Logic and Critical Thinking": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-            "Civic and Ethical Education": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+            "Applied Mathematics II": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "General Physics II": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Fundamentals of Programming": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Engineering Drawing": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Basic Writing Skills": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Health &Physical Education I": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Logic and Critical Thinking": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+            "Civic and Ethical Education": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
         }
     },
     "Engineering": {
         "SoEEC": {
             "2nd_1st": {
-                "Data Structure and Algorithm": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                "Electronic Circuit": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                "Applied Mathematics III": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                "Fundamental of Electrical Engineering": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                "Principle of Economics": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+                "Data Structure and Algorithm": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                "Electronic Circuit": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                "Applied Mathematics III": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                "Fundamental of Electrical Engineering": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                "Principle of Economics": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
             },
             "CSE": {
                 "2": {
                     "sem2": {
-                        "Object Oriented Programming": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Discrete Mathematics for CSE": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Digital Logic Design": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Database Systems": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Electronic circuit II": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "System Programming": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Computer Graphics": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+                        "Object Oriented Programming": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Discrete Mathematics for CSE": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Digital Logic Design": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Database Systems": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Electronic circuit II": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "System Programming": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Computer Graphics": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
                     }
                 },
                 "3": {
                     "sem1": {
-                        "Algorithms": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Probability and Random Process": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Fund. of software Engineering": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Computer Architecture & Organization": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+                        "Algorithms": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Probability and Random Process": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Fund. of software Engineering": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Computer Architecture & Organization": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
                     },
                     "sem2": {
-                        "Operating System": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Data Communication & Computer Networks": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Introduction to Artificial": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "SOftware Requirement Engineering": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Web Programming": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Advanced Programming": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+                        "Operating System": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Data Communication & Computer Networks": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Introduction to Artificial": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "SOftware Requirement Engineering": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Web Programming": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Advanced Programming": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
                     }
                 },
                 "4": {
                     "sem1": {
-                        "Formal Language and automata Theory": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Engineering Research and Development Methodology": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Multimedia Tech.": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Software Design and Architecture": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Mobile Computing and Applications": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Signals and Systems": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Introduction to Data mining": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Introduction to NLP": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Computer System and security": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+                        "Formal Language and automata Theory": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Engineering Research and Development Methodology": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Multimedia Tech.": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Software Design and Architecture": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Mobile Computing and Applications": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Signals and Systems": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Introduction to Data mining": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Introduction to NLP": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Computer System and security": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
                     },
                     "sem2": {
-                        "Programming languages": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Project Management": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Introduction to Law": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Compiler Design": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Digital Signal Processing": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "VLSI Design": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Electrical Network Analysis and synthesis": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Introduction to Computer Vision": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+                        "Programming languages": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Project Management": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Introduction to Law": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Compiler Design": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Digital Signal Processing": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "VLSI Design": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Electrical Network Analysis and synthesis": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Introduction to Computer Vision": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
                     }
                 },
                 "5": {
                     "sem1": {
-                        "Semester Project": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Seminar": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Distributed Systems": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Wireless mobile Networks": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Image Processing": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Human Computer Interaction": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Introduction to Audio & Video Production": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Advanced Network": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Introduction to Control Systems": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+                        "Semester Project": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Seminar": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Distributed Systems": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Wireless mobile Networks": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Image Processing": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Human Computer Interaction": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Introduction to Audio & Video Production": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Advanced Network": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Introduction to Control Systems": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
                     },
                     "sem2": {
-                        "B.Sc. Project": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Entrepreneurship for Engineers": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Computer Games & Animation": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Special Topics in Computer Science & Engineering": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Real time and Embedded Systems": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Software Quality & Testing": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Computer Ethics and Social Issues": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}},
-                        "Introduction to Robotics and Industrial Automation": {"Mid": {"mid 1": "Math1101Mid_2010", "mid 2": "Math1101Mid_2011"}, "Final": {"final 1": "Math1101Final_2010"}}
+                        "B.Sc. Project": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Entrepreneurship for Engineers": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Computer Games & Animation": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Special Topics in Computer Science & Engineering": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Real time and Embedded Systems": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Software Quality & Testing": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Computer Ethics and Social Issues": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}},
+                        "Introduction to Robotics and Industrial Automation": {"Mid": {"Math1101Mid_2010": "Math1101Mid_2010", "Math1101Mid_2011": "BQACAgQAAxkBAAPkYdwq-A1RtnU7FQABHlBcUqTU-VWNAAIfCgAC62_hUr0AAcTBU9A4ZSME"}, "Final": {"final 1": "Math1101Final_2010"}}
                     }
                 }
             },
