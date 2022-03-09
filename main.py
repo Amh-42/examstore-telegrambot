@@ -39,7 +39,7 @@ def welcome(update: Update, context: CallbackContext):
                                      callback_data="search")],
                [InlineKeyboardButton("❓How to Use Me!", callback_data="usage")]]
     context.bot.send_message(
-        chat_id=update.effective_chat.id, reply_markup=InlineKeyboardMarkup(buttons), text="😀Welcome to ASTU Course Outline Robot😎\n👇Choose from the below choices to get started👍")
+        chat_id=update.effective_chat.id, reply_markup=InlineKeyboardMarkup(buttons), text="😀Welcome to ASTU Exam Store Bot😎\n👇Choose from the below choices to get started👍")
 
 #//------------------------------/#
 #//Welcome Message for the user //#
