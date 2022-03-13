@@ -188,30 +188,32 @@ def moreHandler(update: Update, context: CallbackContext):
 
 
 def docHandler(update: Update, context: CallbackContext):
-    file = update.message.document.file_id
-    vcode = []
-    f = open("mongodb2.py", "w")
-    current = context.user_data["current"]
-    # tempData = _Exam
-    for cur in current:
-        # tempData = tempData[cur]
-        if cur == "Mid" or cur == "Final":
-            break
-    code = f"{cur}_{current[-1]}"
-    files = {code: file}
-    # tempData[cur] = files
-    if current[0] == "fresh":
-        _Exam = dict_updater(current, "fresh", code, file)
-    elif current[2] == "2nd_1st":
-        _Exam = dict_updater(current, "2nd_1st", code, file)
-    else:
-        _Exam = dict_updater(current, "other", code, file)
-    # _Exam[current[0]][current[1]][current[2]][current[3]][]
-    vcode.append(_Exam)
-    f.write(f"_Exams = {str(*vcode)}")
-    f.close()
-    context.user_data['add'] = False
-    _Exam = [*vcode]
+    if update.effective_chat.id in _ADMIN:
+        file = update.message.document.file_id
+        vcode = []
+        f = open("mongodb2.py", "w")
+        current = context.user_data["current"]
+        # tempData = _Exam
+        for cur in current:
+            # tempData = tempData[cur]
+            if cur == "Mid" or cur == "Final":
+                break
+        code = f"{cur}_{current[-1]}"
+        files = {code: file}
+        # tempData[cur] = files
+        if current[0] == "fresh":
+            _Exam = dict_updater(current, "fresh", code, file)
+        elif current[2] == "2nd_1st":
+            _Exam = dict_updater(current, "2nd_1st", code, file)
+        else:
+            _Exam = dict_updater(current, "other", code, file)
+        # _Exam[current[0]][current[1]][current[2]][current[3]][]
+        vcode.append(_Exam)
+        f.write(f"_Exams = {str(*vcode)}")
+        f.close()
+        context.user_data['add'] = False
+        _Exam = [*vcode]
+        update.message.reply_text("Saved.")
 
 
 def main():
