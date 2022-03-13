@@ -1,8 +1,10 @@
+from logging import Filter
 from telegram.ext import *
 from telegram import *
 from Token import key
-from mongodb import _Exams, _Lists, _Codes
-
+from mongodb import _Lists, _Codes
+from mongodb2 import _Exams
+from functions import dict_updater
 #-------------------------------------#
 # Constants Declaration and Definition#
 #-------------------------------------#
@@ -38,8 +40,21 @@ def welcome(update: Update, context: CallbackContext):
                [InlineKeyboardButton("🔎Search for Exam",
                                      callback_data="search")],
                [InlineKeyboardButton("❓How to Use Me!", callback_data="usage")]]
+    if not update.message == None:
+        messageID = update.message.message_id
+        chatID = update.message.chat_id
+        firstName = update.message.chat.first_name
+        context.user_data["messageID"] = messageID
+        context.user_data["chatID"] = chatID
+        context.user_data["firstName"] = firstName
+    else:
+        messageID = context.user_data.get("messageID", "")
+        chatID = context.user_data.get("chatID", "")
+        firstName = context.user_data.get("firstName", "")
+    if chatID in _ADMIN:
+        buttons.append([InlineKeyboardButton("Add Exam", callback_data="add")])
     context.bot.send_message(
-        chat_id=update.effective_chat.id, reply_markup=InlineKeyboardMarkup(buttons), text="😀Welcome to ASTU Exam Store Bot😎\n👇Choose from the below choices to get started👍")
+        chat_id=chatID, reply_markup=InlineKeyboardMarkup(buttons), text=f"😀Hi {firstName} \nWelcome to ASTU Exam Store Bot😎\n👇Choose from the below choices to get started👍")
 
 #//------------------------------/#
 #//Welcome Message for the user //#
@@ -47,9 +62,8 @@ def welcome(update: Update, context: CallbackContext):
 
 
 def start(update: Update, context: CallbackContext, query: CallbackQuery):
-
     buttons = []
-    _KEYS = list(_Exams.keys())
+    _KEYS = list(_Exam.keys())
     for key in _KEYS:
         buttons.append([InlineKeyboardButton(key, callback_data=key)])
     query.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(
@@ -61,10 +75,10 @@ def semHandler(update: Update, context: CallbackContext):
     query = update.callback_query
     text = query.data
     current = context.user_data.get("current", [])
-    if text == "start":
+    if text == "start" or text == "add":
+        if text == "add":
+            context.user_data["add"] = True
         start(update, context, query)
-    elif text == "usage":
-        pass
     elif text == "available":
         query.delete_message()
         button = [[InlineKeyboardButton("More ...", callback_data="more")]]
@@ -81,14 +95,20 @@ def semHandler(update: Update, context: CallbackContext):
             current.pop()
         else:
             current.append(text)
+            if (text == "Mid" or text == "Final") and context.user_data.get("add", False):
+                context.bot.send_message(
+                    chat_id=update.effective_chat.id, text="Send Me the Year")
 
         context.user_data["current"] = current
         tempD = _Exam
         for cur in current:
             tempD = tempD[cur]
+
         if type(tempD) == str:
             context.bot.send_message(
-                chat_id=update.effective_chat.id, text=tempD)
+                chat_id=update.effective_chat.id, text=f"Description: {text} \n File:👇")
+            context.bot.send_document(
+                chat_id=update.effective_chat.id, document=tempD)
         else:
             buttons = []
             keys = list(tempD.keys())
@@ -118,6 +138,7 @@ def semHandler(update: Update, context: CallbackContext):
                     "<< Back", callback_data="back")])
             query.edit_message_reply_markup(
                 reply_markup=InlineKeyboardMarkup(buttons))
+            context.user_data["current"] = current
 
 
 def inlineQuery(update: Update, context: CallbackContext):
@@ -142,7 +163,11 @@ def inlineQuery(update: Update, context: CallbackContext):
 
 
 def messageHandler(update: Update, context: CallbackContext):
-    if context.user_data.get("now", "") == "search":
+    if context.user_data.get("add", False):
+        context.user_data["current"].append(update.message.text)
+        context.bot.send_message(
+            chat_id=update.effective_chat.id, text="Send me document")
+    elif context.user_data.get("now", "") == "search":
         context.bot.send_document(
             chat_id=update.effective_chat.id, document=_CODE[update.message.text])
 
@@ -158,9 +183,37 @@ def moreHandler(update: Update, context: CallbackContext):
         query.edit_message_text(text="")
 
 
+def docHandler(update: Update, context: CallbackContext):
+    file = update.message.document.file_id
+    vcode = []
+    f = open("mongodb2.py", "w")
+    current = context.user_data["current"]
+    # tempData = _Exam
+    for cur in current:
+        # tempData = tempData[cur]
+        if cur == "Mid" or cur == "Final":
+            break
+    code = f"{cur}_{current[-1]}"
+    files = {code: file}
+    # tempData[cur] = files
+    if current[0] == "fresh":
+        _Exam = dict_updater(current, "fresh", code, file)
+    elif current[2] == "2nd_1st":
+        _Exam = dict_updater(current, "2nd_1st", code, file)
+    else:
+        _Exam = dict_updater(current, "other", code, file)
+    # _Exam[current[0]][current[1]][current[2]][current[3]][]
+    vcode.append(_Exam)
+    f.write(f"_Exams = {str(*vcode)}")
+    f.close()
+    context.user_data['add'] = False
+    _Exam = [*vcode]
+
+
 def main():
     updater = Updater(key)
     dispatcher = updater.dispatcher
+    dispatcher.add_handler(MessageHandler(Filters.document, docHandler))
     dispatcher.add_handler(CommandHandler("start", welcome))
     dispatcher.add_handler(CallbackQueryHandler(moreHandler, pattern="more"))
     dispatcher.add_handler(CallbackQueryHandler(semHandler))
