@@ -17,19 +17,17 @@ availableExams = list(_CODE.keys())
 _OPTION = []
 reset = 0
 tempL = []
-for code in range(0, len(availableExams)-1, 2):
+for code in range(len(availableExams)):
     if reset == 5:
         reset = 0
         _OPTION.append(tempL)
         tempL = []
     else:
-        tempL.append(availableExams[code] +
-                     "        "+availableExams[code+1])
+        tempL.append(availableExams[code])
         reset += 1
 #-------------------------------------#
 # Constants Declaration and Definition#
 #-------------------------------------#
-
 #------------------------------#
 # Welcome Message for the user #
 #------------------------------#
@@ -80,16 +78,17 @@ def semHandler(update: Update, context: CallbackContext):
             context.user_data["add"] = True
         start(update, context, query)
     elif text == "available":
-        query.delete_message()
         button = [[InlineKeyboardButton("More ...", callback_data="more")]]
         ind = context.user_data["index"] = 0
         context.bot.send_message(
             chat_id=update.effective_chat.id, reply_markup=InlineKeyboardMarkup(button), text='\n'.join(_OPTION[ind]))
-        welcome(update, context)
         context.user_data["index"] += 1
     elif text == "search":
         context.user_data["now"] = text
         query.edit_message_text(text="Send me any course Code")
+    elif text == "usage":
+        context.bot.send_document(chat_id=update.effective_chat.id,
+                                  document="BQACAgQAAxkBAAICI2IuKTW8uAmaF-z0Xd58ljP_JVeuAAI5DgACtgFxUYX_7G04sz5TIwQ")
     else:
         if text == "back":
             current.pop()
