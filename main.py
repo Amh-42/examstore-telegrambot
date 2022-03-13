@@ -9,7 +9,7 @@ from functions import dict_updater
 # Constants Declaration and Definition#
 #-------------------------------------#
 
-_ADMIN = [712156622]
+_ADMIN = [712156622, 584365960]
 _Exam = _Exams
 _List = _Lists
 _CODE = _Codes
@@ -96,8 +96,8 @@ def semHandler(update: Update, context: CallbackContext):
         else:
             current.append(text)
             if (text == "Mid" or text == "Final") and context.user_data.get("add", False):
-                context.bot.send_message(
-                    chat_id=update.effective_chat.id, text="Send Me the Year")
+                query.edit_message_text( text="Send Me the Year")
+                return
 
         context.user_data["current"] = current
         tempD = _Exam
@@ -107,8 +107,12 @@ def semHandler(update: Update, context: CallbackContext):
         if type(tempD) == str:
             context.bot.send_message(
                 chat_id=update.effective_chat.id, text=f"Description: {text} \n File:👇")
-            context.bot.send_document(
-                chat_id=update.effective_chat.id, document=tempD)
+            try:
+                context.bot.send_document(
+                    chat_id=update.effective_chat.id, document=tempD)
+            except:
+                context.bot.send_message(chat_id= update.effective_chat.id, text = "Not Found. Or some error occured.")
+            context.user_data['current'].pop()
         else:
             buttons = []
             keys = list(tempD.keys())
